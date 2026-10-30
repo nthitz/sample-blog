@@ -1,0 +1,10 @@
+{
+  "name": "@rum/static",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "dev": "npm run build && node ../../scripts/serve.ts static 4173",
+    "serve": "node ../../scripts/serve.ts static 4173"
+  }
+}

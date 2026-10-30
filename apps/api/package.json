@@ -1,0 +1,9 @@
+{
+  "name": "@rum/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.ts",
+    "serve": "node server.ts"
+  }
+}
